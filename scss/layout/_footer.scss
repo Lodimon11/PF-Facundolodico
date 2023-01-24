@@ -1,0 +1,26 @@
+footer {
+		width: 100%;
+		text-align: center;
+		padding: 30px 0;
+	}
+	.servicios-columnas {
+		&:hover {
+			box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+		}
+	}
+
+footer {
+	h4 {
+		margin-bottom: 25px;
+		margin-top: 20px;
+		font-weight: 600;
+	}
+}
+.redes-sociales {
+	width: 100%;
+	text-align: center;
+	color: #31A7C2;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
