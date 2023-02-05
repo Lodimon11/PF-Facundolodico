@@ -1,3 +1,5 @@
+@import "./utilities/mixins";
+@import "./utilities/variables";
 @import "./base/reset";
 @import "./base/typo";
 @import "./layout/header";
@@ -5,6 +7,7 @@
 @import "./layout/main-index";
 @import "./layout/servicios";
 @import "./layout/contacto-form";
+@import "./layout/galeria";
 @import "./layout/nosotros";
 @import "./layout/footer";
 @import "./layout/MediaQ";

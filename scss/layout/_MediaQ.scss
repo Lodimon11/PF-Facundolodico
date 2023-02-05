@@ -1,14 +1,14 @@
 @media(max-width: 480px) {
-    .text-box h1{
+    .titulo-web h1{
 font-size: 20px;
 }
 
-.text-box {
+.titulo-web {
 p {
 font-size: 12px;
 }
 }
-.contenedor {
+.servicios--servicios {
 padding-bottom: 50px;
 }
 .navbar {
@@ -38,7 +38,7 @@ cursor: pointer;
 }
 }
 @media(max-width: 700px){
-    .servicios-filas{
+    .razones--contenedor{
         flex-direction: column;
     }
 }

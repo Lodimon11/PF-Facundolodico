@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>facundolodico-desarrolloweb</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
-        rel="stylesheet">
-    <!-- LINK FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/d0cfe6c727.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-</head>
+        <!-- HERRAMIENTAS SEO -->
+        <meta name="keywords" content="desarrollo web, agencia de desarrollo web, paginas web, paginas web institucionales">
+        <meta name="description" content="Agencia de diseño, desarrollo y producción de paginas web">
+        <meta name="author" content="Facundo Lo Dico">
+        <meta name="copyright" content="Fluxer Agencia">
+        <meta property="og:title" content="facundolodico-desarrolloweb">
+        <meta property="og:site_name" content="Fluxer Agencia">
+        <meta property="og:description" content="Agencia de desarrollo web profesional">
+        <meta property="og:type" content="website">
 
+        <title>Fluxer Agencia Digital</title>
+        <link rel="shortcut icon" href="../assets/Favicon fluxer.svg" type="image/x-icon">
+
+        <!-- TIPOGRAFIAS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet">
+
+        <!-- LINK FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/d0cfe6c727.js" crossorigin="anonymous"></script>
+
+        <!-- LINK CSS -->
+        <link rel="stylesheet" href="../css/style.css">
+        
+        <!-- LINK ICONIFY PARA ICONOS -->
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    </head>
 <body>
-    <section class="sub-header">
+
+    <!-- SUB MENU DE NAVEGACION -->
+    <section class="menu-secundario">
+
+        <!-- LOGO DEL MENU -->
         <nav>
             <a href="../index.html"><img src="../assets/logofluxerblanco.svg" alt="logo"></a>
+
+            <!-- LINKS DEL MENU DE NAVEGACION -->
             <div class="navbar" id="navLinks">
+
+                <!-- APERTURA Y CIERRE MOBILE -->
                 <i class="fa fa-times" onclick="hidemenu()"></i>
                 <ul>
                     <li><a href="../index.html">INICIO</a></li>
@@ -30,15 +55,22 @@
                     <li><a href="../pages/contacto.html">CONTACTO</a></li>
                 </ul>
             </div>
+            
+            <!-- APERTURA Y CIERRE MOBILE -->
             <i class="fa fa-bars" onclick="showmenu()"></i>
         </nav>
+
+        <!-- TITULO DEL SUB MENU -->
         <h1>Servicios</h1>
     </section>
 
-    <div class="contenedor">
+    <!-- SECCION DE TARJETAS SERVICIOS -->
+    <div class="servicios--servicios">
         <h2>¡Elegí tu plan!</h2>
-        <div class="precios-filas">
-            <div class="precios-columnas">
+
+        <!-- TARJETAS DE SERVICIOS CON TARIFAS -->
+        <div class="servicios--contenedor">
+            <div class="servicios--contenido">
                 <p>Basic</p>
                 <h3>$8000 <span>/ mes</span></h3>
                 <ul>
@@ -51,9 +83,9 @@
                 </ul>
                 <button>Agregar al carrito</button>
             </div>
-            <div class="precios-columnas">
+            <div class="servicios--contenido">
                 <p>Advanced</p>
-                <h3>$15000 <span>/ month</span></h3>
+                <h3>$15000 <span>/ mes</span></h3>
                 <ul>
                     <li>5 Webs</li>
                     <li>100 GB de capacidad</li>
@@ -64,7 +96,7 @@
                 </ul>
                 <button>Agregar al carrito</button>
             </div>
-            <div class="precios-columnas">
+            <div class="servicios--contenido">
                 <p>Premium</p>
                 <h3>$25000 <span>/ mes</span></h3>
                 <ul>
@@ -78,14 +110,12 @@
                 <button>Agregar al carrito</button>
             </div>
         </div>
-        
     </div>
-    
+
+        <!-- FOOTER DE LA WEB -->
     <footer>
         <h4>Redes Sociales</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. officiis placeat consequatur laborum libero
-            fugit<br> nemo similique voluptatibus ea exercitationem adipisci atque fuga nisi, velit, facere voluptatem
-            inventore eum distinctio.</p>
+        <p>Copyright por Fluxer Agencia Digital, todos los derechos reservados. <br> Queda prohibida la utilización de logos, imágenes, tipografías o cualquier tipo de identificación de la marca por fuera de Fluxer Agencia.</p>
         <div class="redes-sociales">
             <iconify-icon icon="carbon:logo-facebook" style="color: #31a7c2;" width="30" height="30"></iconify-icon>
             <iconify-icon icon="carbon:logo-instagram" style="color: #31a7c2;" width="30" height="30"></iconify-icon>
@@ -95,7 +125,7 @@
         <p><b>TP-Desarrollo Web</b></p>
     </footer>
 
-<!-- Menu desplegable con JavaScript -->
+    <!-- MENU DESPLEGABLE CON JAVASCRIPT -->
 <script>
     var navLinks = document.getElementById("navLinks");
     function showmenu(){
@@ -105,7 +135,5 @@
         navLinks.style.right = "-200px"
     }
 </script>
-
 </body>
-
 </html>

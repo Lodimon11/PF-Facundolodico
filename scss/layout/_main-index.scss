@@ -1,4 +1,4 @@
-.servicios {
+.razones--index {
 	width: 80%;
 	margin: auto;
 	text-align: center;
@@ -15,12 +15,13 @@ p {
 	line-height: 22px;
 	padding: 10px;
 }
-.servicios-filas {
+.razones--contenedor {
 	margin-top: 5%;
 	display: flex;
 	justify-content: space-between;
 }
-.servicios-columnas {
+
+.razones--contenido {
 	flex-basis: 31%;
 	background: #d2e6f4;
 	border-radius: 10px;
@@ -29,8 +30,9 @@ p {
 	box-sizing: border-box;
 	transition: 0.5s;
 }
-h3 {
+
+.tituloservicios {
 	text-align: center;
-	font-weight: 600;
+	font-weight: 550;
 	margin: 10px 0;
 }

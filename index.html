@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- HERRAMIENTAS SEO -->
-    <meta name="keywords" content="desarrollo web, agencia de desarrollo web, paginas web, paginas web institucionales">
-    <meta name="description" content="Agencia de diseño, desarrollo y producción de paginas web">
-    <meta name="author" content="Facundo Lo Dico">
-    <meta name="copyright" content="Fluxer Agencia">
-    <meta property="og:title" content="facundolodico-desarrolloweb">
-    <meta property="og:site_name" content="Fluxer Agencia">
-    <meta property="og:description" content="Agencia de desarrollo web profesional">
-<meta property="og:type" content="website">
-    <title>facundolodico-desarrolloweb</title>
-    <link rel="shortcut icon" href="./assets/Favicon fluxer.svg" type="image/x-icon">
-    <!-- TIPOGRAFIAS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
-        rel="stylesheet">
-    <!-- LINK FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/d0cfe6c727.js" crossorigin="anonymous"></script>
-        <!-- LINK CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- LINK ICONIFY PARA ICONOS -->
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-</head>
+        <!-- HERRAMIENTAS SEO -->
+        <meta name="keywords" content="desarrollo web, agencia de desarrollo web, paginas web, paginas web institucionales">
+        <meta name="description" content="Agencia de diseño, desarrollo y producción de paginas web">
+        <meta name="author" content="Facundo Lo Dico">
+        <meta name="copyright" content="Fluxer Agencia">
+        <meta property="og:title" content="facundolodico-desarrolloweb">
+        <meta property="og:site_name" content="Fluxer Agencia">
+        <meta property="og:description" content="Agencia de desarrollo web profesional">
+        <meta property="og:type" content="website">
 
+        <title>Fluxer Agencia Digital</title>
+        <link rel="shortcut icon" href="./assets/Favicon fluxer.svg" type="image/x-icon">
+
+        <!-- TIPOGRAFIAS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet">
+
+        <!-- LINK FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/d0cfe6c727.js" crossorigin="anonymous"></script>
+
+            <!-- LINK CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+        
+        <!-- LINK ICONIFY PARA ICONOS -->
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    </head>
 <body>
+
+    <!-- MENU DE NAVEGACION -->
     <header>
-        <!-- BARRA DE NAVEGACION -->
+
+        <!-- LOGO DEL MENU -->
         <nav>
             <a href="./index.html"><img src="./assets/logofluxerblanco.svg" alt="logo"></a>
             <div class="navbar" id="navLinks">
-                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <!-- MENU CON JS APERTURA Y CIERRE MOBILE -->
+                <i  class="fa fa-times" onclick="hidemenu()"></i>
+
+                <!-- Links del menu de navegacion -->
                 <ul>
                     <li><a href="">INICIO</a></li>
                     <li><a href="./pages/servicios.html">SERVICIOS</a></li>
@@ -44,49 +55,49 @@
                     <li><a href="./pages/contacto.html">CONTACTO</a></li>
                 </ul>
             </div>
+
+            <!-- MENU CON JS CIERRE Y CIERRE MOBILE -->
             <i class="fa fa-bars" onclick="showmenu()"></i>
         </nav>
-        <div class="text-box">
+
+        <!-- TITULO DE LA WEB -->
+        <div class="titulo-web">
             <h1>Agencia de Desarrollo Web</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In numquam quibusdam blanditiis impedit ipsum
-                tenetur distinctio.<br> Accusamus, impedit hic repellendus accusantium ex excepturi officiis in deserunt
-                distinctio recusandae sequi delectus.</p>
+            <p>Elevamos tu marca a lo grande, utilizando recursos estrategicos de posicionamiento y adaptado a dispositivos móviles</p>
+
                 <!-- BOTON CALL TO ACTION -->
             <a href="./pages/contacto.html" class="cta-home">Quiero saber más</a>
         </div>
     </header>
     <main>
-        <section class="servicios">
-            <h1>¿Porqué contratar a Fluxer?</h1>
-            <p>¡Animate a escalar tu negocio al siguiente nivel! Sumate a <b>Fluxer</b>.</p>
-    
-            <div class="servicios-filas">
-                <div class="servicios-columnas">
-                    <h3>Razón1</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum non distinctio officiis repudiandae
-                        sit veritatis expedita in, placeat voluptatem quas voluptate reprehenderit voluptatum, quibusdam
-                        sapiente quis illo rem voluptates porro!</p>
+
+        <!-- SECCION DE SERVICIOS INDEX -->
+        <section class="razones--index">
+            <h1>¿Porque contratar a Fluxer?</h1>
+            <p>Animate a escalar tu negocio al siguiente nivel</p>
+
+            <!-- CONTENEDOR DE SERVICIOS INDEX -->
+            <div class="razones--contenedor">
+                <div class="razones--contenido">
+                    <h2 class="tituloservicios">Programación Web<br> y Diseño</h2>
+                    <p>Somos una agencia de marketing digital, desarrollamos, diseñamos, planificamos sitios y plataformas online, Además utilizamos las últimas tecnologías y tendencias del mercado.</p>
                 </div>
-                <div class="servicios-columnas">
-                    <h3>Razón2</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum non distinctio officiis repudiandae
-                        sit veritatis expedita in, placeat voluptatem quas voluptate reprehenderit voluptatum, quibusdam
-                        sapiente quis illo rem voluptates porro!</p>
+                <div class="razones--contenido">
+                    <h2 class="tituloservicios">Desarrollo de sitios eCommerce</h2>
+                    <p>Te ofrecemos la posibilidad de vender las 24 horas, mediante una plataforma ecommerce de venta online por esta razón integramos múltiples formas de pago seguidamente de un excelente posicionamiento en buscadores.</p>
                 </div>
-                <div class="servicios-columnas">
-                    <h3>Razón3</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum non distinctio officiis repudiandae
-                        sit veritatis expedita in, placeat voluptatem quas voluptate reprehenderit voluptatum, quibusdam
-                        sapiente quis illo rem voluptates porro!</p>
+                <div class="razones--contenido">
+                    <h2 class="tituloservicios">Identidad corporativa <br> y redes sociales</h2>
+                    <p>El primer impacto importa, por esta razón nuestro equipo creativo te brindará la imagen al público deseada para mayor atracción visual. El diseño de un buen logotipo establece la identidad corporativa de una empresa.</p>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- FOOTER DE LA WEB -->
     <footer>
         <h4>Redes Sociales</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. officiis placeat consequatur laborum libero
-            fugit<br> nemo similique voluptatibus ea exercitationem adipisci atque fuga nisi, velit, facere voluptatem
-            inventore eum distinctio.</p>
+        <p>Copyright por Fluxer Agencia Digital, todos los derechos reservados. <br> Queda prohibida la utilización de logos, imágenes, tipografías o cualquier tipo de identificación de la marca por fuera de Fluxer Agencia.</p>
         <div class="redes-sociales">
             <iconify-icon icon="carbon:logo-facebook" style="color: #31a7c2;" width="30" height="30"></iconify-icon>
             <iconify-icon icon="carbon:logo-instagram" style="color: #31a7c2;" width="30" height="30"></iconify-icon>
@@ -96,7 +107,7 @@
         <p><b>TP-Desarrollo Web</b></p>
     </footer>
 
-<!-- Menu desplegable con JavaScript -->
+    <!-- MENU DESPLEGABLE CON JAVASCRIPT -->
 <script>
     var navLinks = document.getElementById("navLinks");
     function showmenu(){
@@ -106,7 +117,5 @@
         navLinks.style.right = "-200px"
     }
 </script>
-
 </body>
-
 </html>

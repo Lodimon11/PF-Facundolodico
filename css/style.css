@@ -33,7 +33,7 @@ nav {
     padding: 8px 12px;
     position: relative; }
     .navbar ul li a {
-      color: #fff;
+      color: white;
       text-decoration: none;
       font-size: 13px; }
     .navbar ul li::after {
@@ -47,26 +47,26 @@ nav {
     .navbar ul li:hover::after {
       width: 100%; }
 
-.text-box {
+.titulo-web {
   width: 90%;
-  color: #fff;
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center; }
-  .text-box h1 {
+  .titulo-web h1 {
     font-size: 62px; }
-  .text-box p {
+  .titulo-web p {
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #fff; }
+    color: white; }
 
 .cta-home {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
+  color: white;
+  border: 1px solid white;
   padding: 12px 34px;
   font-size: 13px;
   background: transparent;
@@ -77,15 +77,15 @@ nav {
     background: #31a7c2;
     transition: 1s; }
 
-.sub-header {
+.menu-secundario {
   height: 40vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.905), rgba(63, 21, 71, 0.23)), url(../assets/backrounddark.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
-  color: #ffffff; }
-  .sub-header h1 {
+  color: white; }
+  .menu-secundario h1 {
     margin-top: 60px;
     font-size: 35px; }
 
@@ -111,7 +111,7 @@ nav {
   .botonazul:hover {
     color: white; }
 
-.servicios {
+.razones--index {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -128,12 +128,12 @@ p {
   line-height: 22px;
   padding: 10px; }
 
-.servicios-filas {
+.razones--contenedor {
   margin-top: 5%;
   display: flex;
   justify-content: space-between; }
 
-.servicios-columnas {
+.razones--contenido {
   flex-basis: 31%;
   background: #d2e6f4;
   border-radius: 10px;
@@ -142,24 +142,24 @@ p {
   box-sizing: border-box;
   transition: 0.5s; }
 
-h3 {
+.tituloservicios {
   text-align: center;
-  font-weight: 600;
+  font-weight: 550;
   margin: 10px 0; }
 
-.contenedor {
+.servicios--servicios {
   width: 100%;
   min-height: 100vh;
   background: #2b5876;
   background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
   background: linear-gradient(to right, #4e4376, #2b5876); }
-  .contenedor h2 {
-    color: #fff;
+  .servicios--servicios h2 {
+    color: white;
     font-size: 32px;
     padding: 50px 0;
     text-align: center; }
 
-.precios-filas {
+.servicios--contenedor {
   width: 90%;
   max-width: 1100px;
   margin: auto;
@@ -167,51 +167,57 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 25px; }
 
-.precios-columnas {
+.servicios--contenido {
   background: #1f283b;
   padding: 10% 15%;
   border-radius: 10px;
-  color: #fff;
+  color: white;
   text-align: center; }
-  .precios-columnas p {
+  .servicios--contenido p {
     font-size: 22px;
     color: #fafafa; }
-  .precios-columnas h3 {
+  .servicios--contenido h3 {
     font-size: 44px;
     margin: 20px 0 40px;
     font-weight: 500; }
-    .precios-columnas h3 span {
+    .servicios--contenido h3 span {
       font-size: 16px; }
-  .precios-columnas ul {
+  .servicios--contenido ul {
     text-align: left;
     margin: 20px 0;
     color: #ddd;
     list-style: none; }
-    .precios-columnas ul li {
+    .servicios--contenido ul li {
       margin: 15px 0; }
-      .precios-columnas ul li::before {
+      .servicios--contenido ul li::before {
         content: '\2022';
         color: #e33058;
         font-weight: bold;
         margin-right: 8px; }
-  .precios-columnas button {
+  .servicios--contenido button {
     width: 100%;
     padding: 14px 0;
     background: transparent;
-    color: #fff;
+    color: white;
     font-size: 15px;
     border: 1px solid #e33058;
     border-radius: 6px;
     margin-top: 30px;
     cursor: pointer;
     transition: background 0.5s; }
-    .precios-columnas button:hover {
+    .servicios--contenido button:hover {
       background: #e33058; }
+
+.contacto--titulo {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px; }
 
 .container {
   box-sizing: border-box;
-  border-radius: 5px;
-  background-color: #f2f2f2;
+  border-radius: 10px;
+  background-color: #e9edf4;
   padding: 28px;
   margin-top: 50px;
   text-align: left; }
@@ -238,20 +244,40 @@ input[type=submit]:hover {
   background-color: #23bd56;
   transition: 0.8s; }
 
-.Nosotros {
+.galeria--container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2%;
+  padding-top: 0%; }
+  .galeria--container img {
+    width: 400px;
+    height: 235px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 7px;
+    padding-bottom: 30px; }
+  .galeria--container img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s; }
+
+.nosotros {
   width: 80%;
   margin: auto;
   padding-top: 80px;
   padding-bottom: 50px; }
 
-.Nosotros-estilo {
+.nosotros--estilo {
   flex-basis: 48%;
   padding: 30px 2px; }
-  .Nosotros-estilo img {
+  .nosotros--estilo img {
     width: 100%; }
-  .Nosotros-estilo h1 {
+  .nosotros--estilo h1 {
     padding-top: 0; }
-  .Nosotros-estilo p {
+  .nosotros--estilo p {
     padding: 15px 0 25px; }
 
 footer {
@@ -259,7 +285,7 @@ footer {
   text-align: center;
   padding: 30px 0; }
 
-.servicios-columnas:hover {
+.razones--contenido:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2); }
 
 footer h4 {
@@ -276,11 +302,11 @@ footer h4 {
   font-weight: 600; }
 
 @media (max-width: 480px) {
-  .text-box h1 {
+  .titulo-web h1 {
     font-size: 20px; }
-  .text-box p {
+  .titulo-web p {
     font-size: 12px; }
-  .contenedor {
+  .servicios--servicios {
     padding-bottom: 50px; }
   .navbar {
     position: absolute;
@@ -302,5 +328,5 @@ footer h4 {
     cursor: pointer; } }
 
 @media (max-width: 700px) {
-  .servicios-filas {
+  .razones--contenedor {
     flex-direction: column; } }

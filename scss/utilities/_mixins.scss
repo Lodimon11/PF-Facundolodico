@@ -1,0 +1,8 @@
+@mixin header(){
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.905), rgba(63, 21, 71, 0.23)), url(../assets/backrounddark.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}

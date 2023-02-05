@@ -1,0 +1,23 @@
+    .galeria--container {
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2%;
+        padding-top: 0%;
+        ;
+        img {
+            width: 400px;
+            height: 235px;
+            object-fit: cover;
+            object-position: bottom;
+            padding: 7px;
+            padding-bottom: 30px;
+        }
+            img:hover {
+                cursor: pointer;
+                opacity: 0.5;
+                transition: 0.5s;
+            }
+}
