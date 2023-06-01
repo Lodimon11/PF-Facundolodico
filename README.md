@@ -1,7 +1,7 @@
 # PF-FACUNDOLODICO
 Proyecto 3 Desarrollo web.
 
-Realice una web alusiva a una empresa de prestadora de servicios de desarrollo web.
+Realice una web alusiva a una empresa prestadora de servicios de desarrollo web.
 
 El enfoque esta direccionado a conseguir un email por medio de los Call to Action.
 
